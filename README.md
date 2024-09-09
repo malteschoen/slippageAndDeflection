@@ -7,7 +7,7 @@ Let us consider a very simple case of an extrusion die represented by an one-dim
 * This setting ensures that we have a steep pressure drop at the die inlet and a shallow, slip-affected pressure drop at the die outlet, see blue curve in figure 1.
   
 
-![figure1](https://github.com/malteschoen/slippageAndDeflection/blob/main/figure1.png)
+![figure1](https://github.com/malteschoen/slippageAndDeflection/blob/main/media/figure1.png)
 
 ## Mathematical treatment
 We primarily look at the bending moment (which is directly correlated to the strain of the outer fibre) instead of the deformation. Our bending moment $M$ must follow a formula looking like this
@@ -40,3 +40,14 @@ p(x) =   1.22x²
 p(x) =   0.81x²
 ```
 * Roughly 20 % of error are not acceptable for most applications.
+
+## Preemption of criticism
+
+But what if we shift the curve instead of stretching or compressing it? It makes no difference, see below.
+![figure1](https://github.com/malteschoen/slippageAndDeflection/blob/main/media/figure1.png)
+
+This first figure shows the stretched/compressed curve.
+
+![figure2](https://github.com/malteschoen/slippageAndDeflection/blob/main/media/figure_2.png)
+
+While the second figures shows a shifted curve.
